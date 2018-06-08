@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="VenoMpie.Common.WPF.Controls.FileExplorer.FileExplorer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VenoMpie.Common.WPF.Controls.FileExplorer"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <local:FileExplorerTree x:Name="fetTree" FileExplorerTree_SelectedItemChanged="fetTree_SelectedItemChanged" FileActionSuccess="fetTree_FileActionSuccess" />
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+        <local:FileExplorerView Grid.Column="2" x:Name="fetView" FileExplorerView_SelectionChanged="fetView_SelectionChanged" FileExplorerView_ParentMouseDoubleClick="fetView_FileExplorerView_ParentMouseDoubleClick" />
+    </Grid>
+</UserControl>

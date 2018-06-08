@@ -1,0 +1,41 @@
+﻿<Window x:Class="VenoMpie.Common.WPF.Controls.FileExplorer.Dialogs.FindAndReplace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VenoMpie.Common.WPF.Controls.FileExplorer.Dialogs"
+        xmlns:fe="clr-namespace:VenoMpie.Common.WPF.Controls.FileExplorer"
+        mc:Ignorable="d"
+        Title="Find And Replace" Height="400" Width="600" FontSize="10"
+        WindowStyle="ToolWindow">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="20" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="20" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Margin="5">Find String</TextBlock>
+            <ComboBox Name="cbxFind" Width="200" Margin="0,0,10,0" IsEditable="True"></ComboBox>
+        </StackPanel>
+        <Button Grid.Column="1" Name="btnFind">Find Next</Button>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Margin="5">Replace String</TextBlock>
+            <ComboBox Name="cbxReplace" Width="200" Margin="0,0,10,0" IsEditable="True"></ComboBox>
+        </StackPanel>
+        <Button Grid.Row="1" Grid.Column="1" Name="btnReplace">Replace</Button>
+        <fe:FileExplorerView Grid.Row="2" x:Name="feView" Margin="0,0,10,0"></fe:FileExplorerView>
+    </Grid>
+</Window>

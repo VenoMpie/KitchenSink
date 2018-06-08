@@ -1,0 +1,120 @@
+DOSCenter (
+	Name:Total DOS Collection #10
+	Description: Not windows 10, but total DOS 10!
+	Version: 1.0
+	Date: Aug 12 2015
+	Author: hargle
+	Homepage: http://totalDOSCollection.org
+	Comment: 
+)
+game (
+	name "Arithmetic Games Set 1 [f1] (1981)(IBM, Science Research Associates) [Strategy, Educational].zip"
+	file ( name !@#$%$#@.!@# size 4096 date 1981/08/04 00:00:00 crc 8f7abb81 )
+	file ( name ARITHMET.BIN size 768 date 1981/07/17 00:00:00 crc 0a082568 )
+	file ( name AUTOEXEC.BAT size 15 date 1980/01/01 00:00:00 crc 1588181a )
+	file ( name BASICA.COM size 59570 date 1983/10/20 11:00:00 crc 92293842 )
+	file ( name BEANO.BAS size 13568 date 1981/09/23 00:00:00 crc ce5152f0 )
+	file ( name COLOR.BAS size 849 date 1980/01/01 00:00:00 crc e613a0a9 )
+	file ( name COLOR.BA_ size 896 date 1980/01/01 00:00:00 crc 5b3d0c4a )
+	file ( name file_id.diz size 284 date 2014/11/23 07:53:30 crc 2cef41f9 )
+	file ( name GAMES.BIN size 384 date 1981/07/17 00:00:00 crc 6dfba958 )
+	file ( name LOGO.BAS size 9835 date 1980/01/01 00:00:00 crc 62d2fd58 )
+	file ( name LOGO.BA_ size 9728 date 1980/01/01 00:00:00 crc 535ba370 )
+	file ( name MENU.BAS size 8832 date 1981/09/23 00:00:00 crc 04f321c0 )
+	file ( name ROCKETS.BAS size 19584 date 1981/09/23 00:00:00 crc 82a12a69 )
+	file ( name SET.BIN size 256 date 1981/07/17 00:00:00 crc e2a76050 )
+	file ( name SETUP1.BAT size 351 date 1980/01/01 00:00:00 crc 08826672 )
+	file ( name SETUP2.BAT size 314 date 1980/01/01 00:00:00 crc 818bafc5 )
+)
+
+game (
+	name "Chess (1981)(M.C. Rakaska, S.W. Huggins) [Strategy, Chess].zip"
+	file ( name Chess.bas size 19129 date 2007/01/31 19:46:20 crc 50577473 )
+	file ( name Chess.exe size 46464 date 1998/12/25 19:46:00 crc 826d1c0d )
+	file ( name file_id.diz size 198 date 2014/11/23 07:53:32 crc 72399680 )
+)
+
+game (
+	name "Donkey (1981)(IBM, Microsoft) [Racing - Driving].zip"
+	file ( name DONKEY.BAS size 4651 date 1981/08/04 12:00:00 crc 36a0e169 )
+	file ( name file_id.diz size 178 date 2014/11/23 07:53:32 crc 2e158abb )
+	file ( name GWBASIC.EXE size 80592 date 2001/05/04 06:58:22 crc 8462d0e4 )
+	file ( name PLAY.BAT size 15 date 2009/11/22 22:06:38 crc 96f695ab )
+	file ( name SAMPLES.BAS size 2432 date 1981/08/04 00:00:00 crc 59e7a2a8 )
+)
+
+game (
+	name "Galaxy (1981)(Avalon Hill) [Simulation, Strategy].zip"
+	file ( name file_id.diz size 180 date 2014/11/23 07:53:34 crc 248fe3ce )
+	file ( name GALAXY.BAS size 1280 date 1980/01/01 00:59:20 crc 29ede4d3 )
+	file ( name GALAXYP.BAS size 12416 date 1989/05/05 00:00:00 crc e92dca47 )
+	file ( name GWBASIC.EXE size 80608 date 1991/01/31 12:17:34 crc 2a44af39 )
+	file ( name RUNME.BAT size 16 date 2011/01/24 19:52:30 crc 47bf56f7 )
+)
+
+game (
+	name "Intercept (1981)(Michael D. Wile) [Adventure, Interactive Fiction].zip"
+	file ( name file_id.diz size 214 date 2014/11/23 07:53:34 crc 4aec8dba )
+	file ( name INTER.EXE size 43493 date 1987/10/25 07:37:26 crc 5754bfed )
+	file ( name INTERC.BAT size 37 date 1987/10/24 17:33:10 crc 910b0929 )
+	file ( name INTERCEP.EXE size 3679 date 1987/10/24 17:24:26 crc c83b9e9b )
+	file ( name INTERCEP.TXT size 919 date 1993/02/22 02:33:22 crc e37655e8 )
+)
+
+game (
+	name "10th Frame (1987)(Access Software, Inc.) [Sports][!].zip"
+	file ( name BOWL.EXE size 167580 date 1987/04/20 16:54:10 crc edb3ae2e )
+	file ( name file_id.diz size 199 date 2015/03/07 18:14:04 crc a1c12387 )
+)
+
+game (
+	name "10th Frame [a1] (1987)(Access Software, Inc.) [Sports].zip"
+	file ( name bowl.exe size 140084 date 1996/12/24 23:32:00 crc b2cf5e58 )
+	file ( name file_id.diz size 204 date 2011/01/22 16:11:34 crc e27ebcc5 )
+	file ( name readme.com size 1704 date 1996/12/24 23:32:00 crc 37f73aee )
+)
+
+game (
+	name "10th Frame [h1] (1987)(Access Software, Inc.) [Sports].zip"
+	file ( name 10FRAME.COM size 3584 date 1987/04/05 18:14:18 crc 59834b9b )
+	file ( name BOWL.DAT size 167580 date 1987/04/20 16:54:10 crc edb3ae2e )
+	file ( name file_id.diz size 216 date 2011/09/13 20:20:30 crc e244e751 )
+)
+
+game (
+	name "10th Frame [h2] (1987)(Access Software, Inc.) [Sports].zip"
+	file ( name BOWL.EXE size 167580 date 1987/04/20 16:54:10 crc 3d90348e )
+	file ( name file_id.diz size 210 date 2015/03/07 18:14:04 crc bd98cd24 )
+)
+
+game (
+	name "Crazy Cars (1987)(Titus Interactive S.A.) [Action, Racing - Driving].zip"
+	file ( name CH\ size 0 date 1999/08/01 21:01:22 crc 00000000 )
+	file ( name CH\D1.DEC size 10560 date 1987/02/07 09:34:48 crc 6e983f73 )
+	file ( name CH\D2.DEC size 10560 date 1987/02/07 09:35:16 crc 1dd3de4b )
+	file ( name CH\D3.DEC size 10560 date 1987/02/07 09:35:42 crc 3bae2b8a )
+	file ( name CH\Z1 size 8005 date 1987/12/08 11:13:06 crc 1e1c4671 )
+	file ( name CH\Z2 size 7269 date 1987/12/08 11:20:04 crc 984f0fa3 )
+	file ( name CH\Z3 size 8787 date 1987/12/08 11:23:44 crc f6f9907b )
+	file ( name CH\Z4 size 8787 date 1987/12/08 11:27:00 crc 8e859fee )
+	file ( name CRAZY.COM size 1126 date 1999/07/17 22:38:28 crc 863ebfc6 )
+	file ( name CRAZY.OVL size 50264 date 1988/01/01 00:00:00 crc 66eea610 )
+	file ( name FILES\ size 0 date 1999/08/01 21:01:22 crc 00000000 )
+	file ( name FILES\EC size 300 date 1999/07/17 22:39:14 crc 9ea4155f )
+	file ( name FILES\GAMEOVER size 16384 date 1987/02/07 08:26:04 crc ae3db5ea )
+	file ( name FILES\GRAPH size 26348 date 1980/01/01 00:05:34 crc 07dff424 )
+	file ( name FILES\MASK size 26349 date 1980/01/01 00:06:16 crc 78ffe74b )
+	file ( name FILES\PRES size 16384 date 1987/02/07 06:33:00 crc 041fc28d )
+	file ( name file_id.diz size 218 date 2011/01/22 16:12:30 crc beef7624 )
+	file ( name FONT size 472 date 1988/01/01 00:00:00 crc c5f262cd )
+	file ( name ROAD\ size 0 date 1999/08/01 21:01:22 crc 00000000 )
+	file ( name ROAD\MAP0 size 2425 date 1980/01/01 00:16:08 crc 96c38b1a )
+	file ( name ROAD\MAP1 size 2425 date 1980/01/01 00:16:40 crc 9dd9214b )
+	file ( name ROAD\MAP2 size 2425 date 1980/01/01 00:17:08 crc 27119764 )
+	file ( name ROAD\MAP3 size 2425 date 1980/01/01 00:17:26 crc 3d099b94 )
+	file ( name ROAD\MAP4 size 2425 date 1980/01/01 00:17:46 crc 59408b77 )
+	file ( name ROAD\MAP5 size 2425 date 1980/01/01 00:18:06 crc 9a5f874c )
+	file ( name SOUND size 61952 date 1988/01/01 00:00:00 crc a8d30c64 )
+	file ( name START.ASM size 1078 date 1999/08/01 21:06:08 crc ba121b91 )
+	file ( name START.COM size 217 date 1999/08/01 21:06:10 crc 8f50e84c )
+)

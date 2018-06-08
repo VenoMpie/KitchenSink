@@ -1,0 +1,17 @@
+Title Traz
+Author Jeroen Kimmel (Red)
+Released 1988 Cascade Games
+Load Address $1000
+Number of tunes 27
+Init Address $17F4
+Default tune 1
+Play Address $17F7
+Speed $00000000
+SID Model 6581
+Clock PAL
+File Format PSID
+BASIC FALSE
+Format Version 2
+PlaySID Specific FALSE
+Free Pages $2000 - $68ff
+MD5 e0df2be10e67a7a5059e6d36223a5bb1

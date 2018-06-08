@@ -1,0 +1,1 @@
+﻿[{"size":7857,"type":"PWAD","iwad":"DOOM2","port":["DOOM2"],"filenames":["barbell.wad"],"links":["http:\/\/autokrator.butanpressfight.com\/Doom%20Junk\/D!ZONE%203\/WADS\/DOOM2\/BARBELL.WAD"]}]

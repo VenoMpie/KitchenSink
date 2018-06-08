@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{578DD74C-0CEE-4205-A6BC-4BDE43215282}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VenoMpie.Common.IO</RootNamespace>
+    <AssemblyName>VenoMpie.Common.IO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileEx.cs" />
+    <Compile Include="FileReaders\Compression\SRR\RarBlocks.cs" />
+    <Compile Include="FileReaders\Compression\SRR\SRRReader.cs" />
+    <Compile Include="FileReaders\CSV\CSVReader.cs" />
+    <Compile Include="FileReaders\Emulation\DataFiles\Resources\datafileEx.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\DoomPCSpeakerPlayer.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Sound\DMXGUS.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Map.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\General\PlayPalette.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Reject.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Nodes.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Segments.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Sectors.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\SideDefs.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Lump.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\LineDefs.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\SubSectors.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Vertices.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Map\Things.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\Lumps\Sound\PCSpeaker.cs" />
+    <Compile Include="FileReaders\Emulation\General\BaseClasses\GameEntryBase.cs" />
+    <Compile Include="FileReaders\Emulation\General\Interfaces\IGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\General\Interfaces\ILinkedGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\LinkedGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\GameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\MergedTosecDat.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\MergedGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\ParsedTosecDat.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\LinkedGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\MergedGameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\MergedTDCDat.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\ParsedTDCDat.cs" />
+    <Compile Include="FileReaders\EndianAwareBinaryReader.cs" />
+    <Compile Include="FileReaders\BitReader.cs" />
+    <Compile Include="FileReaders\Emulation\DOS\Doom\WADReader.cs" />
+    <Compile Include="FileReaders\Emulation\C64\SIDReader.cs" />
+    <Compile Include="FileReaders\Emulation\DataFiles\Conversions.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\TosecDat_XML.cs" />
+    <Compile Include="FileReaders\Emulation\TOSEC\TosecDat_Text.cs" />
+    <Compile Include="FileReaders\Emulation\DataFiles\Resources\datafile.cs" />
+    <Compile Include="FileReaders\Emulation\General\FileEntryBase.cs" />
+    <Compile Include="FileReaders\Emulation\DataFiles\IAmDataFile.cs" />
+    <Compile Include="FileReaders\Emulation\General\MatchingClass.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\GameEntry.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\TDCDat_Text.cs" />
+    <Compile Include="FileReaders\Emulation\TotalDosCollection\TDCMasterListReader.cs" />
+    <Compile Include="FileReaders\SFV\SfvReader.cs" />
+    <Compile Include="FileReaders\Torrents\Torrent.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\BDictionary.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\BInteger.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\BList.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\BString.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\IBType.cs" />
+    <Compile Include="FileReaders\Torrents\TorrentTypes\IBValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SizeFormatter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FileReaders\Emulation\DataFiles\Resources\datafile.dtd" />
+    <None Include="FileReaders\Emulation\DataFiles\Resources\datafile.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

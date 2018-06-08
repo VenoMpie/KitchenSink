@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="VenoMpie.Common.WPF.Controls.FileExplorer.FileExplorerTree"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VenoMpie.Common.WPF.Controls.FileExplorer"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <TreeView Name="tvwExplorer" TreeViewItem.Expanded="tvwExplorer_Expanded" SelectedItemChanged="tvwExplorer_SelectedItemChanged"
+                  ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  Drop="TreViewItem_Drop" AllowDrop="True">
+            <TreeView.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type local:FileExplorerTreeItem}" ItemsSource="{Binding Items}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Image}" DragEnter="TreViewItem_DragEnter" DragLeave="TreViewItem_DragLeave" Drop="TreViewItem_Drop" />
+                        <TextBlock Text="{Binding Name}" DragEnter="TreViewItem_DragEnter" DragLeave="TreViewItem_DragLeave" Drop="TreViewItem_Drop" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.Resources>
+            <TreeView.ContextMenu>
+                <ContextMenu Name="cmnuFileCommands">
+                    <MenuItem Name="mnuCopy" Header="Copy here" Click="mnuCopy_Click" />
+                    <MenuItem Name="mnuMove" FontWeight="Bold" Header="Move here" Click="mnuMove_Click" />
+                    <Separator />
+                    <MenuItem Name="mnuCancel" Header="Cancel" Click="mnuCancel_Click" />
+                </ContextMenu>
+            </TreeView.ContextMenu>
+        </TreeView>
+    </Grid>
+</UserControl>

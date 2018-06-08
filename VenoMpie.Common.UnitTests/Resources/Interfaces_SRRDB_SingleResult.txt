@@ -1,0 +1,1 @@
+﻿{"results":[{"release":"Harry.Potter.And.The.Chamber.Of.Secrets.2002.DVDRip.XViD-iNTERNAL-TDF","date":"2011-07-11 00:00:00","hasNFO":"yes","hasSRS":"yes"}],"resultsCount":"1","warnings":[],"query":["Harry.Potter.And.The.Chamber.Of.Secrets.2002.DVDRip.XViD-iNTERNAL-TDF"]}
